@@ -241,7 +241,7 @@ def start_training(run):
 
     # os.system(run_command)
 
-    run_command = str(run)
+    run_command = str(run)+' -dont_show'
 
     p = subprocess.Popen(run_command, shell=True, stdout=subprocess.PIPE)
     while True:
