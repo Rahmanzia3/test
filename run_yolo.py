@@ -378,7 +378,7 @@ if __name__ == "__main__":
     number_classes = obj_names(data_dir)
     edit_cfg(destination_cfg,number_classes)
     run = obj_data(project_fodler,number_classes)
-    # start_training(run)
+    start_training(run)
     print(run)
 
 
